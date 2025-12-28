@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Meta tags for character encoding and responsive design -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Page title and meta description for SEO -->
+    <title>Prescott & Co. | Timeless Elegance in Modern Attire</title>
+    <meta name="description"
+        content="Discover the refined collection of Prescott & Co. - where timeless elegance meets modern sophistication. Premium clothing for the discerning gentleman.">
+
+    <!-- Google Fonts - Playfair Display (headings) and Lato (body) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:wght@400;500;600&display=swap"
+        rel="stylesheet">
+
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- ========================================
+         HEADER SECTION
+         Contains logo and navigation menu
+         Uses Flexbox for layout
+         ======================================== -->
+    <header class="header">
+        <div class="header__container">
+            <!-- Brand Logo -->
+            <a href="index.html" class="header__logo">
+                Prescott <span>& Co.</span>
+            </a>
+
+            <!-- Navigation Menu -->
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li><a href="index.html" class="nav__link">Home</a></li>
+                    <li><a href="categories.html" class="nav__link">Collections</a></li>
+                    <li><a href="product.html" class="nav__link">Featured</a></li>
+                    <li><a href="auth.html" class="nav__link">Account</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ========================================
+         MAIN CONTENT AREA
+         ======================================== -->
+    <main class="main">
+        <!-- Hero Section - Landing area with call to action -->
+        <section class="hero">
+            <div class="hero__container">
+                <!-- Text Content -->
+                <div class="hero__content">
+                    <p class="hero__tagline">Established 1892</p>
+                    <h1 class="hero__title">The Art of<br>Quiet Luxury</h1>
+                    <p class="hero__description">
+                        At Prescott & Co., we believe that true elegance whispers rather than shouts.
+                        Our collections are crafted for those who appreciate the finer details—
+                        impeccable tailoring, premium fabrics, and timeless design.
+                    </p>
+                    <a href="categories.html" class="btn btn--primary">Shop Collection</a>
+                </div>
+
+                <!-- Hero Image Placeholder -->
+                <div class="hero__image">
+                    <div class="hero__image-placeholder">
+                        <img src="Images/Hero Picture.jpg" alt="Elegant suited gentleman">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Categories Preview -->
+        <section class="categories" style="padding-top: 0;">
+            <div class="categories__header">
+                <p class="categories__subtitle">Curated Collections</p>
+                <h2 class="categories__title">Explore Our World</h2>
+            </div>
+
+            <div class="categories__grid">
+                <!-- Category Card 1 -->
+                <article class="category-card">
+                    <div class="category-card__image"><img src="Images/tailoredsuit.jpg" alt="Tailored Suits">
+</div>
+                    <div class="category-card__content">
+                        <h3 class="category-card__title">Tailored Suits</h3>
+                        <p class="category-card__description">
+                            Bespoke excellence for the modern gentleman.
+                        </p>
+                        <a href="categories.html" class="btn btn--secondary">Discover</a>
+                    </div>
+                </article>
+
+                <!-- Category Card 2 -->
+                <article class="category-card">
+                    <div class="category-card__image"><img src="Images/elegance.jpg" alt="Casual Elegance"></div>
+
+
+                    <div class="category-card__content">
+                        <h3 class="category-card__title">Casual Elegance</h3>
+                        <p class="category-card__description">
+                            Refined comfort for every occasion.
+                        </p>
+                        <a href="categories.html" class="btn btn--secondary">Discover</a>
+                    </div>
+                </article>
+
+                <!-- Category Card 3 -->
+                <article class="category-card">
+                    <div class="category-card__image">
+                    <img src="Images/watch.jpg" alt="Accessories">
+                    </div>
+                    <div class="category-card__content">
+                        <h3 class="category-card__title">Accessories</h3>
+                        <p class="category-card__description">
+                            The finishing touches that define style.
+                        </p>
+                        <a href="categories.html" class="btn btn--secondary">Discover</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <!-- ========================================
+         FOOTER SECTION
+         Contains contact info and links
+         Uses Flexbox for responsive layout
+         ======================================== -->
+    <footer class="footer">
+        <div class="footer__container">
+            <!-- Brand Section -->
+            <div class="footer__brand">
+                <p class="footer__logo">Prescott & Co.</p>
+                <p class="footer__tagline">"Where tradition meets distinction."</p>
+            </div>
+
+            <!-- Quick Links -->
+            <div class="footer__section">
+                <h4 class="footer__title">Quick Links</h4>
+                <ul class="footer__list">
+                    <li><a href="index.html" class="footer__link">Home</a></li>
+                    <li><a href="categories.html" class="footer__link">Collections</a></li>
+                    <li><a href="product.html" class="footer__link">Featured</a></li>
+                    <li><a href="auth.html" class="footer__link">Account</a></li>
+                </ul>
+            </div>
+
+            <!-- Contact Information -->
+            <div class="footer__section">
+                <h4 class="footer__title">Contact Us</h4>
+                <div class="footer__contact-info">
+                    <p>Shop # 001, Block A, F-8 Markaz</p>
+                    <p>Islamabad, PK 44500</p>
+                    <p>+92 333 0001112</p>
+                    <p>concierge@prescottco.com</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Copyright -->
+        <div class="footer__bottom">
+            <p class="footer__copyright">© 2025 Prescott & Co. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Link to external JavaScript file -->
+    <script src="main.js"></script>
+</body>
+
+</html>

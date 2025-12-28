@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta tags for character encoding and responsive design -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Page title and meta description -->
+    <title>The Westminster Suit | Prescott & Co.</title>
+    <meta name="description" content="The Westminster Three-Piece Suit - A masterpiece of English tailoring crafted from premium Super 150s wool. Available at Prescott & Co.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- ========================================
+         HEADER SECTION
+         ======================================== -->
+    <header class="header">
+        <div class="header__container">
+            <a href="index.html" class="header__logo">
+                Prescott <span>& Co.</span>
+            </a>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li><a href="index.html" class="nav__link">Home</a></li>
+                    <li><a href="categories.html" class="nav__link">Collections</a></li>
+                    <li><a href="product.html" class="nav__link">Featured</a></li>
+                    <li><a href="auth.html" class="nav__link">Account</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ========================================
+         MAIN CONTENT - PRODUCT DETAIL
+         Product image and details side by side
+         Uses Flexbox for layout
+         ======================================== -->
+    <main class="main">
+        <section class="product">
+            <div class="product__container">
+                
+                <!-- ================================
+                     PRODUCT GALLERY (Left Side)
+                     ================================ -->
+                <div class="product__gallery">
+                    <div class="product__image-main" id="productImage">
+                        <!-- JS injects image here -->
+                    </div>
+                </div>
+                
+                <!-- ================================
+                     PRODUCT DETAILS (Right Side)
+                     ================================ -->
+                <div class="product__details">
+                    <!-- Category Label -->
+                    <p class="product__category" id="productCategory"></p>
+                    
+                    <!-- Product Title -->
+                    <h1 class="product__title" id="productTitle"></h1>
+                    
+                    <!-- Price -->
+                    <p class="product__price" id="productPrice"></p>
+                    
+                    <!-- Description -->
+                    <p class="product__description" id="productDescription"></p>
+                        A masterpiece of English tailoring, The Westminster Three-Piece Suit 
+                        represents the pinnacle of our craft. Cut from premium Super 150s 
+                        Merino wool sourced from the finest Italian mills, this suit features 
+                        a subtle midnight navy with an understated pinstripe that catches 
+                        the light with refined elegance.
+                    </p>
+                    <p class="product__description">
+                        Each suit is constructed using traditional Savile Row techniques, 
+                        including hand-stitched lapels, working surgeon's cuffs, and a 
+                        half-canvas chest piece for superior drape and longevity. The 
+                        waistcoat features mother-of-pearl buttons and an adjustable 
+                        back strap for the perfect fit.
+                    </p>
+                    
+                    <!-- Size Selector -->
+                    <div class="product__sizes">
+                        <label class="product__sizes-label">Select Size</label>
+                        <div class="product__sizes-options">
+                            <!-- Size buttons - JS handles active state -->
+                            <button type="button" class="size-option">36</button>
+                            <button type="button" class="size-option">38</button>
+                            <button type="button" class="size-option">40</button>
+                            <button type="button" class="size-option">42</button>
+                            <button type="button" class="size-option">44</button>
+                            <button type="button" class="size-option">46</button>
+                        </div>
+                    </div>
+                    
+                    <!-- Action Buttons -->
+                    <div class="product__actions">
+                        <button type="button" id="addToCartBtn" class="btn btn--primary">
+                            Add to Cart
+                        </button>
+                        <a href="categories.html" class="btn btn--secondary">
+                            Back to Collections
+                        </a>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+    </main>
+
+    <!-- ========================================
+         FOOTER SECTION
+         ======================================== -->
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__brand">
+                <p class="footer__logo">Prescott & Co.</p>
+                <p class="footer__tagline">"Where tradition meets distinction."</p>
+            </div>
+            
+            <div class="footer__section">
+                <h4 class="footer__title">Quick Links</h4>
+                <ul class="footer__list">
+                    <li><a href="index.html" class="footer__link">Home</a></li>
+                    <li><a href="categories.html" class="footer__link">Collections</a></li>
+                    <li><a href="product.html" class="footer__link">Featured</a></li>
+                    <li><a href="auth.html" class="footer__link">Account</a></li>
+                </ul>
+            </div>
+            
+          <div class="footer__section">
+                <h4 class="footer__title">Contact Us</h4>
+                <div class="footer__contact-info">
+                    <p>Shop # 001, Block A, F-8 Markaz</p>
+                    <p>Islamabad, PK 44500</p>
+                    <p>+92 333 0001112</p>
+                    <p>concierge@prescottco.com</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer__bottom">
+            <p class="footer__copyright">© 2024 Prescott & Co. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Link to external JavaScript file -->
+    <script src="main.js"></script>
+</body>
+</html>
