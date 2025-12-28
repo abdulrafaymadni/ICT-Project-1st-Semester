@@ -25,10 +25,8 @@ prescott/
 ├── auth.html           # Login and Signup forms
 ├── categories.html     # Product categories grid
 ├── product.html        # Individual product detail page
-├── css/
-│   └── style.css       # Main stylesheet (Flexbox, Box Model)
-├── js/
-│   └── main.js         # JavaScript for form validation
+├── style.css       # Main stylesheet (Flexbox, Box Model)
+├── main.js         # JavaScript for form validation
 └── README.md           # This file
 ```
 
@@ -109,9 +107,10 @@ python -m http.server 8000
 
 | Name | Role | GitHub |
 |------|------|--------|
-| [Your Name] | Lead Developer | @username |
+| Abdul Rafay Madni | Lead Developer | @abdulrafaymadni |
 | Sara Mishal | Collaborator | @sara-mishal |
-| [Team Member 3] | Designer | @username |
+| haseebtariq1899 | Designer | @haseebtariq1899 |
+| ahmedhassann77 | Designer | @ahmedhassann77 |
 
 ---
 
@@ -128,7 +127,7 @@ python -m http.server 8000
 
 This project is created for educational purposes as part of a university assignment.
 
-© 2024 Prescott & Co. - All Rights Reserved.
+© 2025 Prescott & Co. - All Rights Reserved.
 
 ---
 
